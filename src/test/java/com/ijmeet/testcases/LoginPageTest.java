@@ -9,7 +9,7 @@ import com.config.TestListener;
 public class LoginPageTest extends BaseClass {
 	@Test
 	public void tc_001() {
-		Constants.loginpage.clickOnSign();
+		Constants.sip.clickOnSign();
 		Constants.logger.info("Verify Sign In link");
 		Constants.extent.createTest("tc_001 Sign In link");
 	}
