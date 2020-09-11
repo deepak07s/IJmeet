@@ -2,9 +2,17 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="37289" started-at="2020-08-24T08:46:27Z" finished-at="2020-08-24T08:47:04Z">
+=======
+  <suite name="Default suite" duration-ms="30520" started-at="2020-09-08T18:12:45Z" finished-at="2020-09-08T18:13:16Z">
+>>>>>>> 8ff3620b634ffbc695c6b5ae6e5b50d046b7dd93
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRun@60c6f5b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test name="Default test" duration-ms="37289" started-at="2020-08-24T08:46:27Z" finished-at="2020-08-24T08:47:04Z">
       <class name="com.ijmeet.testcases.LoginPageTest">
         <test-method status="PASS" signature="baseTest()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@cb5822]" name="baseTest" is-config="true" duration-ms="27633" started-at="2020-08-24T14:16:27Z" finished-at="2020-08-24T14:16:55Z">
@@ -16,10 +24,30 @@
           </reporter-output>
         </test-method> <!-- tc_001 -->
         <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@cb5822]" name="closeDriver" is-config="true" duration-ms="998" started-at="2020-08-24T14:17:03Z" finished-at="2020-08-24T14:17:04Z">
+=======
+    <test name="Default test" duration-ms="30520" started-at="2020-09-08T18:12:45Z" finished-at="2020-09-08T18:13:16Z">
+      <class name="testRunner.TestRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRun@60c6f5b]" name="setUpClass" is-config="true" duration-ms="781" started-at="2020-09-08T18:12:45Z" finished-at="2020-09-08T18:12:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- com.ijmeet.testcases.LoginPageTest -->
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRun@60c6f5b]" name="feature" duration-ms="28311" started-at="2020-09-08T18:12:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-08T18:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Sign In page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@60c6f5b]" name="tearDownClass" is-config="true" duration-ms="1216" started-at="2020-09-08T18:13:14Z" finished-at="2020-09-08T18:13:16Z">
+>>>>>>> 8ff3620b634ffbc695c6b5ae6e5b50d046b7dd93
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRun -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
