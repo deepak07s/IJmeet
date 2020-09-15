@@ -1,6 +1,10 @@
 package testRunner;
 
 import org.junit.runner.RunWith;
+import org.testng.annotations.Test;
+
+import com.config.Constants;
+
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = ".//src/test/java/Features/SignIn.feature", glue = "stepDefination", monochrome = true, plugin = {
-		"pretty", "html:Report/ExtentsCucumberReport" })
+		"pretty", "html:Report/ExtentsCucumberReport.html" })
 public class TestRun extends AbstractTestNGCucumberTests{
-
+	
 }
